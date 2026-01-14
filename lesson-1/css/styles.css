@@ -1,2 +1,102 @@
-@charset "UTF-8";
+@charset "UTF-8"
 
+
+
+/*Named Selectors*/
+/*------------------------------------------------------------------*/
+
+ h2 {
+    color: red;
+    font-style:italic;
+ }
+
+
+ /*ID Selectors*/
+ /*------------------------------------------------------------------*/
+
+ #project {
+    color: olive;
+ }
+
+
+ /*Class Selectors*/
+/*------------------------------------------------------------------*/
+
+.about {
+    background-color: lightgray;
+}
+
+
+/*Contextual Selectors/ Decendant Selectors*/
+/*------------------------------------------------------------------*/
+
+section p {
+    color: darkorange;
+}
+
+.sub-project p {
+    color: purple;
+}
+
+
+/*Grouped Selectors*/
+/*------------------------------------------------------------------*/
+
+h1,h2, h3 {
+    text-decoration: underline;
+}
+
+
+/*Pseudo-class Selectors*/
+/*------------------------------------------------------------------*/  
+
+a:link {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+a:visited {
+    color: red;
+}
+
+a:focus {
+    background-color: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+
+/*Structural Pseudo-class Selectors*/
+/*------------------------------------------------------------------*/
+
+li:nth-child(3n-1) {
+    background-color: white;
+}
+
+li:nth-of-type(even) {
+    font-weight: bold;
+}
+
+article section :last-of-type {
+    background-color: lightblue;
+}
+
+
+/*Pseudo-element Selectors*/
+/*------------------------------------------------------------------*/
+
+p::first-letter {
+    font-size: 200%;
+    color: brown;
+}
+
+h1 + p::first-line {
+    text-transform: uppercase;
+}
