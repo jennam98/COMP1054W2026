@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* Adding google font */
+    margin: auto 50px 50px 50px; 
+    /* making all margins 50px except top */
+}
+
+header h1 {
+    text-transform: uppercase; /* making all letters uppercase */
+    font-size: 20px;
+    margin-top: 20px; /* adding margin to the top */
+    border: 2px solid black; /* adding border */
+    display: inline-block ; /* making the border fit the text */
+    padding-left: 5px; /* adding padding to the left */
+    letter-spacing: 5px; /* adding space between letters */
+}
+
+header h2 {
+    
+    text-align: center; /* centering the title */
+    text-transform: uppercase; /* making all letters uppercase */
+    letter-spacing: 8px; /* adding space between letters */
+    font-size: 2.8rem; /* changing font size */
+    margin-top: 10px; /* adding margin to the top */
+    margin-bottom: 0; /* removing margin from the bottom */
+    font-weight: bolder; /* making the font bolder */
+    
+}
+
+header p {
+    font-size: 1 rem; /* changing font size */
+    margin-top: 5px; /* adding margin to the top */
+    text-transform: uppercase; /* making all letters uppercase */
+    word-spacing: 10px; /* adding space between words */
+    text-align: center; /* centering the text */
+    font-weight: bolder; /* making the font bolder */
+}
+
+main h4 {
+    margin-bottom: 0; /* removing margin from the bottom */
+}
+
+
+
+main {
+  column-count: 3; /* changing number of columns to 3 */
+}
+
+main p:first-child { /* selecting the first paragraph */
+  margin-top: 0;    /* removing margin from the top  */
+}
